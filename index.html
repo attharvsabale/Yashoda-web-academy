@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yashoda-academy</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8.0.6/swiper-bundle.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.svg" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-1.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-shape-2.png" />
+  </head>
+  <body>
+    <header class="header" data-header>
+      <div class="container">
+        <div id="text-logo">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="50px"
+            height="30px"
+            alt="Yashoda logo"
+          />
+        </a>
+
+        <div id="logo-text">
+             <h6>Yashoda Shikshan Prasarak Mandal’s</h6>
+             <h3>Yashoda Junior College & Yashoda Academy</h3>
+             <h6> For [ JEE (Mains/Advance) / NEET / MHT-CET / NDA ]</h6>
+        </div>
+
+      </div>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.png"
+                width="55"
+                height="50"
+                alt="yashoda logo"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>News</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#footer" class="navbar-link" data-nav-link>Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="header-action-btn"
+            aria-label="toggle search"
+            title="Search"
+          >
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+          
+          <button
+            class="header-action-btn"
+            aria-label="open menu"
+            data-nav-toggler
+          > 
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+        
+      </div>
+      <div id="looptext">
+        <marquee loop="-1" scrollamount="5" width="100%"> <span id="capsule"></span>Admissions are open for 2024-2025 batches  <span id="capsule"></span>Admissions are open for 2024-2025 batches  <span id="capsule"></span>Admissions are open for 2024-2025 batches </marquee>
+      </div>
+
+       
+    </header>
+     
+    <main>
+      
+      <article>
+        <!--  HERO SECTION -->
+          
+        <section
+          class="section hero has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/hero-bg.svg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 section-title">
+                The Best Academy for <span class="span0"> JEE / NEET</span>
+                Exams.
+              </h1>
+
+              <p class="hero-text">
+                Unlock potential at Yashoda Academy and Yashodha Junior College.
+                Transforming young aspirations into thriving careers with
+                unparalleled education and guidance.
+              </p>
+
+              <a href="#categor" class="btn has-before">
+                <span class="span">Find more scroll down</span>
+                <ion-icon name="chevron-down-outline" aria-hidden="true"></ion-icon>
+            </a>
+            
+            </div>
+
+            <figure class="hero-banner">
+              <div class="img-holder one" style="--width: 270; --height: 300">
+                <img
+                  src="./assets/images/hero-banner-1.jpg"
+                  width="270"
+                  height="300"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <div class="img-holder two" style="--width: 240; --height: 370">
+                <img
+                  src="./assets/images/hero-banner-2.jpg"
+                  width="240"
+                  height="370"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </div>
+
+              <img
+                src="./assets/images/hero-shape-1.png"
+                width="380"
+                height="190"
+                alt=""
+                class="shape hero-shape-1"
+              />
+
+              <img
+                src="./assets/images/hero-shape-2.png"
+                width="622"
+                height="551"
+                alt=""
+                class="shape hero-shape-2"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!--  CATEGORY SECTION -->
+
+        <section class="section category" id="categor" aria-label="category">
+          <div class="container">
+            <p class="section-subtitle">Categories</p>
+
+            <h2 class="h2 section-title">
+              Speacial <span class="span">Classes</span> For Effective Learning.
+            </h2>
+
+            <p class="section-text">
+             our academy provides courses designed with a fresh and innovative teaching style.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="category-card" style="--color: 170, 75%, 41%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-1.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Online Degree Programs"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">JEE (Mains/Advance) Programs :</a>
+                  </h3><br>
+                   
+                  <span class="card-badge">7 Courses</span>
+
+                  <p class="card-text">
+                    we cover : B.E, B.Tech, IIT, NIT, B.Arch, B.Pharm / B.Sc(Agri) 
+                  </p>
+
+                  
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 351, 83%, 61%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-2.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Non-Degree Programs"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">CET - Programs :</a>
+                  </h3>
+
+                  <p class="card-text">
+                    CET preparation for a brighter academic future.
+                  </p>
+
+                  <span class="card-badge">1 Courses</span>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 229, 75%, 58%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-3.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Off-Campus Programs"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"
+                      >11th-12th Board (HSC & CBSC) :</a
+                    >
+                  </h3> <br>
+
+                  <span class="card-badge">4 Courses Plan</span>
+
+                  <p  class="card-text">
+                    <ol>
+                 <strong>May 2023 - Aug 2024</strong> :<P> syllabus completion </p>
+                 <strong>Sep 2023 - Nov 2024</strong> : <p> revision & test boards</p>
+                 <strong>Dec 2024 - Feb 2025</strong> : <p> exam preparation boards</p>
+                 <strong>>Mar 2025 - May 2025</strong> :<p>JEE/NEET/CET preparation</p>
+                    </ol>
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-card" style="--color: 42, 94%, 55%">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/category-4.svg"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Hybrid Distance Programs"
+                      class="img"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">NEET Exam Programs :</a>
+                  </h3> <br>
+
+                  <span class="card-badge">4 Courses</span>
+
+                  <p class="card-text">
+                    we cover : AIIMS, MBBS, BDS, BAMS, B.VSC, B.PTH etc...
+                  </p>
+
+                  
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+         <!-- ABOUT SECTION -->
+
+         <section class="section about" id="about" aria-label="about">
+          <div class="container">
+  
+            <figure class="about-banner">
+  
+              <div class="img-holder" style="--width: 310; --height: 370;">
+                <img src="./assets/images/about-banner.jpg" width="520" height="170"  loading="lazy" alt="about banner"
+                  class="img-cover">
+              </div>
+  
+              <img src="./assets/images/about-shape-1.png" width="360" height="420" loading="lazy" alt=""
+                class="shape about-shape-1">
+  
+              <img src="./assets/images/about-shape-2.png" width="371" height="220" loading="lazy" alt=""
+                class="shape about-shape-2">
+  
+              <img src="./assets/images/about-shape-3.png" width="722" height="528" loading="lazy" alt=""
+                class="shape about-shape-3">
+  
+            </figure>
+  
+            <div class="about-content">
+  
+              <p class="section-subtitle">About Us</p>
+  
+              <h2 class="h2 section-title">
+                Yashoda Academy is the only <span class="span">Residential Academy</span> in <span class="span2">Satara</span> City.
+              </h2>
+  
+              <p class="section-text">
+                Our motto is to constanly direct, motivate and persuade students on their path to success.
+                Training is frequently seen as a deeply ingrained insight,thus we provide each
+                 student with a rewarding environment for them to being their career under one roof.
+              </p>
+  
+              <ul class="about-list">
+  
+                <li class="about-item">
+                  <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Expert Staff</span>
+                </li>
+  
+                <li class="about-item">
+                  <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Kota pattern study material</span>
+                </li>
+  
+                <li class="about-item">
+                  <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Daily doubt solving session</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Special batches</span>
+                </li>
+  
+                <li class="about-item">
+                  <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
+  
+                  <span class="span">Student monitoring after tests</span>
+                </li>
+              </ul>
+  
+              <img src="./assets/images/about-shape-4.svg" width="100" height="100" loading="lazy" alt=""
+                class="shape about-shape-4">
+  
+            </div>
+  
+          </div>
+        </section>
+
+          <!-- Courses -->
+
+          <section class="section course" id="courses" aria-label="course">
+            <div class="container">
+    
+              <p class="section-subtitle">Popular Courses</p>
+    
+              <h2 class="h2 section-title">Currently Ongoing classes.</h2>
+    
+              <ul class="grid-list">
+    
+                <li>
+                  <div class="course-card">
+    
+                    <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                      <img src="./assets/images/course-1.jpg" width="370" height="220" loading="lazy"
+                        alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
+                    </figure>
+    
+                    <div class="abs-badge">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                      <span class="span">3 Weeks</span>
+                    </div>
+    
+                    <div class="card-content">
+    
+                      <span class="badge">Advance</span>
+    
+                      <h3 class="h3">
+                        <a href="#" class="card-title">11th / 12th (CBSC,HSC) Board .</a>
+                      </h3>
+    
+                      <div class="wrapper">
+    
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+    
+                        <p class="rating-text">(5.0/7 Rating)</p>
+    
+                      </div>
+    
+                      
+                      <ul class="card-meta-list">
+    
+                        <li class="card-meta-item">
+                          <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+    
+                          <span class="span">4 Lessons</span>
+                        </li>
+    
+                        <li class="card-meta-item">
+                          <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+    
+                          <span class="span">50 Students</span>
+                        </li>
+    
+                      </ul>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="course-card">
+    
+                    <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                      <img src="./assets/images/course-2.jpg" width="370" height="220" loading="lazy"
+                        alt="Java Programming Masterclass for Software Developers" class="img-cover">
+                    </figure>
+    
+                    <div class="abs-badge">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                      <span class="span">8 Weeks</span>
+                    </div>
+    
+                    <div class="card-content">
+    
+                      <span class="badge">Advanced</span>
+    
+                      <h3 class="h3">
+                        <a href="#" class="card-title">NEET Course </a>
+                      </h3>
+    
+                      <div class="wrapper">
+    
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+    
+                        <p class="rating-text">(4.5 /9 Rating)</p>
+    
+                      </div>
+    
+                      <ul class="card-meta-list">
+    
+                        <li class="card-meta-item">
+                          <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+    
+                          <span class="span">5 Lessons</span>
+                        </li>
+    
+                        <li class="card-meta-item">
+                          <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+    
+                          <span class="span">48 Students</span>
+                        </li>
+    
+                      </ul>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="course-card">
+    
+                    <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                      <img src="./assets/images/course-3.jpg" width="370" height="220" loading="lazy"
+                        alt="The Complete Camtasia Course for Content Creators" class="img-cover">
+                    </figure>
+    
+                    <div class="abs-badge">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                      <span class="span">3 Weeks</span>
+                    </div>
+    
+                    <div class="card-content">
+    
+                      <span class="badge">Advance</span>
+    
+                      <h3 class="h3">
+                        <a href="#" class="card-title">The JEE & CET course .</a>
+                      </h3>
+    
+                      <div class="wrapper">
+    
+                        <div class="rating-wrapper">
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                          <ion-icon name="star"></ion-icon>
+                        </div>
+    
+                        <p class="rating-text">(4.9 /7 Rating)</p>
+    
+                      </div>
+    
+                      <ul class="card-meta-list">
+    
+                        <li class="card-meta-item">
+                          <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+    
+                          <span class="span">3 Lessons</span>
+                        </li>
+    
+                        <li class="card-meta-item">
+                          <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+    
+                          <span class="span">60 Students</span>
+                        </li>
+    
+                      </ul>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+              <a href="#footer" class="btn has-before">
+                <span class="span">Contact Now </span>
+    
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+    
+            </div>
+          </section>
+
+
+          <!-- COLLEGE VIDEO SECTION -->
+
+          <section class="video has-bg-image" aria-label="video"
+        style="background-image: url('./assets/images/video-bg.png')">
+        <div class="container">
+
+          <div class="video-card">
+
+            <div class="video-banner img-holder has-after" style="--width: ; --height: ;">
+              <img src="./assets/images/video-banner.jpg" width="970" height="550" loading="lazy" alt="video banner"
+                class="img-cover">
+
+              <button class="play-btn" aria-label="play video">
+                <ion-icon name="play" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+
+            <img src="./assets/images/video-shape-1.png" width="1089" height="605" loading="lazy" alt=""
+              class="shape video-shape-1">
+
+            <img src="./assets/images/video-shape-2.png" width="158" height="174" loading="lazy" alt=""
+              class="shape video-shape-2">
+
+          </div>
+
+        </div>
+          </section>
+
+          <!-- DASHBOARDS SECTION -->
+
+          <section class="section stats" aria-label="stats">
+            <div class="container">
+    
+              <ul class="grid-list">
+    
+                <li>
+                  <div class="stats-card" style="--color: 170, 75%, 41%">
+                    <h3 class="card-title">8.3k</h3>
+    
+                    <p class="card-text">Student Enrolled</p>
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="stats-card" style="--color: 351, 83%, 61%">
+                    <h3 class="card-title">12K</h3>
+    
+                    <p class="card-text">Class Completed</p>
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="stats-card" style="--color: 260, 100%, 67%">
+                    <h3 class="card-title">100%</h3>
+    
+                    <p class="card-text">Satisfaction Rate</p>
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="stats-card" style="--color: 42, 94%, 55%">
+                    <h3 class="card-title">74+</h3>
+    
+                    <p class="card-text">Top Instructors</p>
+                  </div>
+                </li>
+    
+              </ul>
+    
+            </div>
+          </section>
+
+          <!-- NEWS SECTION -->
+
+          <section class="section blog has-bg-image" id="blog" aria-label="blog"
+        style="background-image: url('./assets/images/blog-bg.svg')">
+        <div class="container">
+
+          <h1 class="section-subtitle">Our social work</h1>
+
+          <p class="section-subtitle">Latest Articles</p>
+
+          <h2 class="h2 section-title">Know whta's happening in Academy-compus</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-1.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">Satara</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Maratha Samaj Bhushan Award</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Oct 10, 2021</span>
+                    </li>
+
+                  
+
+                  </ul>
+
+                  <p class="card-text">
+                    Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-4.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">In Campus</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                  Hon. Shri. SharadchandraJee Pawar</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">jan 10, 2010</span>
+                    </li>
+
+                  
+
+                  </ul>
+
+                  <p class="card-text">
+                    
+                    Hon. Shri. SharadchandraJee Pawar on the occasion of Inauguration.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-2.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">Yashoda Campus,</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">
+                      Hon. Ramraje Naik Nibalkar visited Yashoda Campus .</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Oct 10, 2021</span>
+                    </li>
+
+                  
+
+                  </ul>
+
+                  <p class="card-text">
+                    Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-5.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">In Satara City</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title"> For Stopping child liberation in city</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Oct 1, 2023</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-3.jpg" width="370" height="370" loading="lazy"
+                    alt="Become A Better Blogger: Content Planning" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="read more">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">In Karad</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Spread awareness about Women empowerment.</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Oct 21, 2023</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Lorem Ipsum Dolor Sit Amet Cons Tetur Adipisicing Sed.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
+            class="shape blog-shape">
+
+        </div>
+          </section>
+
+
+          <!-- DESK SECTION -->
+          
+          <section class="desk">
+            <div class="slide-container swiper"> 
+              <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                    
+                      <span class="overlays"></span>
+          
+                      <div class="card-image">
+                        <img src="assets/images/sir1.png" alt="" class="card-img">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <h3 class="name">Prof. Ajinkya Sagare</h3>
+                      <p class="description">
+                        
+                       <!-- YSPM, Satara: Dedicated to education, with [Vice President's Ajinkya sir] leading initiatives. -->
+                       YSPM, Satara: [ Vice President's ]
+                      </p>
+                      <button class="bttn">Know more</button>
+                    </div>
+                  </div> 
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                    
+                      <span class="overlays"></span>
+          
+                      <div class="card-image">
+                        <img src="assets/images/sir2.jpeg" alt="" class="card-img">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <h3 class="name">Prof.Dasharath Sagare</h3>
+                      <p class="description">
+                        <!-- YSPM, Satara: Founded by [Dasharath Sagare], promoting education and community development. -->
+                        YSPM, Satara: Founded by [Sagare sir]
+                      </p>
+                      <button class="bttn">Know more</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                    
+                      <span class="overlays"></span>
+          
+                      <div class="card-image">
+                        <img src="assets/images/sir3.jpeg" alt="" class="card-img">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <h3 class="name">Mr. Ajit Ghadage</h3>
+                      <p class="description">
+                        YSPM, Satara : [Director]
+                      </p>
+                      <button class="bttn">Know more</button>
+                    </div>
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                    
+                      <span class="overlays"></span>
+          
+                      <div class="card-image">
+                        <img src="assets/images/mam1.jpeg" alt="" class="card-img">
+                      </div>
+                    </div>
+                    <div class="card-content">
+                      <h3 class="name">Mrs. Vasudha Ghadage</h3>
+                      <p class="description">
+                        <!-- YSPM, Satara Director's : [Mrs. Vasudha Ghadage] directs academic excellence, innovation, and organizational growth. -->
+                        [YSPM, Satara : Director]
+                      </p>
+                      <button class="bttn">Know more</button>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+          
+        
+       
+          <!-- FOOTER SECTION -->
+
+          <footer class="footer" id="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+            <div class="footer-top section">
+              <div class="container grid-list">
+        
+                <div class="footer-brand">
+        
+                  <a href="#" class="logo">
+                    <img src="./assets/images/logo.png" width="50" height="40" alt="Yashodha logo">
+                  </a>
+          
+                  <br>
+                  <div class="wrapper">
+                    <span class="span">Add:</span>
+        
+                    <address class="address">NH-4, Wadhe,Satara</address>
+                  </div>
+        
+                  <div class="wrapper">
+                    <span class="span">Call:</span>
+        
+                    <a href="tel:+91 -123 4567890" class="footer-link">744739226 / 8551889226</a>
+                  </div>
+        
+                  <div class="wrapper">
+                    <span class="span">Email:</span>
+        
+                    <a href="yashodaacademy@yes.edu.in" class="footer-link">yashodaacademy@yes.edu.in</a>
+                  </div>
+        
+                  <div class="wrapper">
+                    <span class="span">Website :</span>
+        
+                    <a href="www.yes.edu.in" class="footer-link">www.yes.edu.in</a>
+                  </div>
+                </div>
+
+                <div class="map">
+
+                  <h3 id="Location"> Location : </h3>
+                  
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.4927606140395!2d74.01808247441163!3d17.72140639309834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2382e7dd2dad1%3A0x4681d208d72eaf92!2sYSPM&#39;s%20Yashoda%20Technical%20Campus!5e0!3m2!1sen!2sin!4v1701001849155!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                
+                <div>
+ 
+                  <p class="footer-brand-text">
+                    Website Related Query Contact :  <br> (atharvsabale619@gmail.com) 
+                   </p>
+
+                </div>
+        
+  
+                <div class="footer-list">
+        
+                  <p class="footer-list-title">Contacts :</p>
+        
+                  <p class="footer-list-text">
+                    Enter your email address to get our latest news 
+                  </p>
+        
+                  <form action="" class="newsletter-form">
+                    <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+        
+                    <button type="submit" class="btn has-before">
+                      <span class="span">Subscribe</span>
+        
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </form>
+        
+                  <ul class="social-list">
+        
+                    <li>
+                      <a href="https://www.facebook.com/yashodajuniorcollege.academy?mibextid=ZbWKwL" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="https://www.instagram.com/yashodajuniorcollege_academy/" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="https://www.facebook.com/yashodajuniorcollege.academy?mibextid=ZbWKwL" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a>
+                    </li>
+        
+                    <li>
+                      <a href="https://www.youtube.com/@yspm2015" class="social-link">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                      </a>
+                    </li>
+        
+                  </ul>
+        
+                </div>
+        
+              </div>
+            </div>
+        
+            <div class="footer-bottom">
+              <div class="container">
+        
+                <p class="copyright">
+                  Copyright 2024 All Rights Reserved by yashoda-academy.
+                </p>
+        
+              </div>
+            </div>
+        
+          </footer>
+
+
+          <!-- BACK TO TOP -->
+
+          <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+            <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+          </a>
+      </article>
+    </main>
+
+    <script src="https://unpkg.com/swiper@8.0.6/swiper-bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
