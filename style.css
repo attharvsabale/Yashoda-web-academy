@@ -302,6 +302,7 @@ html {
    top: 0;
    left: 0;
    width: 100%;
+   /* height: 16%; */
    background-color: var(--white);
    padding-block: 7px;
    box-shadow: var(--shadow-1);
@@ -350,6 +351,26 @@ html {
   margin-top: 1px;
  }
 
+ #text-logo {
+  display: flex;
+  align-items: center; 
+}
+
+#logo-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; 
+}
+
+#logo-text h6,
+#logo-text h3,
+#logo-text h4 {
+  margin: 0;
+}
+
+#special-heading{
+   color: black;
+}
 
  .header .logo {
   margin-left: 0px; 
@@ -417,12 +438,12 @@ html {
  }
 
  #looptext{
-  margin-top: 5px;
-  padding-top: 10px;
-  padding-bottom: 2px;
+  margin-top: 3px;
+  padding-top: 3px;
   background-color: whitesmoke;
   font-size: larger;
   color: #000;
+  height: 30px;
  }
 
 marquee span {
@@ -434,8 +455,8 @@ marquee span {
 
 
   #capsule{
-  width: 80px;
-  height: 40px;
+  width: 30px;
+  height: 20px;
   background-image: url('./assets/images/lightbulp.jpg');
   background-size:cover;
   background-position: 0% 45%; 
@@ -447,13 +468,16 @@ marquee span {
 
    /* HERO SECTION */
  
+   #home{
+    margin-top: -45px;
+   }
 
    .hero { padding-block-start: calc(var(--section-padding) + 80px); }
 
    .hero .container {
      display: grid;
      gap: 40px;
-     margin-top: 8vh;
+     margin-top: 4vh;
    }
 
    .hero-text {
@@ -479,8 +503,8 @@ marquee span {
   }
   
   .hero-banner .img-holder.one {
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 110px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
   }
   
   .hero-banner .img-holder.two {
@@ -551,7 +575,7 @@ strong{
 .about {
   padding-block-start: 0;
   overflow: hidden;
-  background-color: wheat;
+  background-color:  #4caf4f4d; 
 }
 
 .about .container {
@@ -1165,12 +1189,17 @@ strong{
   pointer-events: all;
 }
 
-
 @media (max-width: 575px) {
-  #logo-text{
-    display: none;
+  #logo-text {
+    display: flex; /* or any other display value you want */
+    align-items: center; /* optional: align items as needed */
+  }
+
+  #logo-text > *:not(#special-heading) {
+    display: none; /* Hide all child elements of #logo-text except #special-heading */
   }
 }
+
 
 
 /* larger than 575  RESPONISIVE  */
@@ -1218,6 +1247,9 @@ strong{
 
   .hero-banner { grid-template-columns: 1fr 0.9fr; }
 
+  .hero-banner{
+    margin-top: -30px;
+  }
 
 
   /* VIDEO */
@@ -1300,6 +1332,10 @@ strong{
   
   #logo-text{
     color: rgb(27, 26, 26);
+   }
+
+   #special-heading{
+    display: none;
    }
 
 
@@ -1404,7 +1440,12 @@ strong{
 
   .hero .btn { margin-inline: 0; }
 
+  
 
+
+  #special-heading{
+    display: none;
+   }
 
   /*ABOUT*/
 
@@ -1514,6 +1555,13 @@ strong{
    }
 
 
+   #special-heading{
+    display: none;
+   }
+
+   .hero-content{
+    margin-top: -55px;
+   }
 
   /*HERO */
 
@@ -1573,6 +1621,8 @@ strong{
   }
 
 }
+
+
 
 
 

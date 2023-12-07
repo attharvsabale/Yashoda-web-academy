@@ -20,6 +20,7 @@ const overlay = document.querySelector("[data-overlay]");
 const marquee = document.getElementById("looptext");
 
 
+
 const toggleNavbar = function () {
     navbar.classList.toggle("active");
     overlay.classList.toggle("active");
@@ -63,7 +64,7 @@ const activeElem = function () {
 addEventOnElem(window, "scroll", activeElem);
 
 
-// slideing loop 
+// slideing loop  our Desk SECTION
 
 var swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
@@ -95,12 +96,30 @@ var swiper = new Swiper(".slide-content", {
   });
   
 
+// function  for img sliding
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const heroImage = document.getElementById("hero-image");
+  const imageArray = [
+    "./assets/images/lightbulp.jpg",
+    "./assets/images/photo1.jpeg",
+    "./assets/images/photo2.jpeg", 
+    "./assets/images/photo3.jpeg",
+    "./assets/images/photo4.jpeg",
+    "./assets/images/photo5.jpeg",
+    "./assets/images/photo7.jpeg",
+    "./assets/images/hero-banner-1.jpg"
+  ];
+  let currentIndex = 0;
 
+  function changeImage() {
+    currentIndex = (currentIndex + 1) % imageArray.length;
+    heroImage.src = imageArray[currentIndex];
+  }
 
-
-
+  setInterval(changeImage, 4000); // Change image every 1 second (adjust as needed)
+});
 
 
 
