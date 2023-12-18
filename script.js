@@ -102,14 +102,13 @@ var swiper = new Swiper(".slide-content", {
 document.addEventListener("DOMContentLoaded", function () {
   const heroImage = document.getElementById("hero-image");
   const imageArray = [
-    "./assets/images/lightbulp.jpg",
+    
     "./assets/images/photo1.jpeg",
     "./assets/images/photo2.jpeg", 
     "./assets/images/photo3.jpeg",
     "./assets/images/photo4.jpeg",
     "./assets/images/photo5.jpeg",
-    "./assets/images/photo7.jpeg",
-    "./assets/images/hero-banner-1.jpg"
+    "./assets/images/photo7.jpeg"
   ];
   let currentIndex = 0;
 
