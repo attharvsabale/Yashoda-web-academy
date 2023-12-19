@@ -1734,6 +1734,10 @@ strong{
     padding: 40px;
 }
 
+#about-head p{
+  text-align: justify;
+}
+
 #about-head div h2{
   color: rgba(0, 0, 0, 0.767);
   font-weight: 500;
@@ -1769,13 +1773,31 @@ strong{
   place-items:center;
 }
 
+#Neet{
+  margin-top: 7vw;
+  padding:2vw 4vw;
+}
+
+#Neet h3{
+  margin-bottom: 1vw;
+  margin-left: 38vw;
+  font-size: 25px;
+  color: #000000c7;
+}
+
+#Neet p{
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.849);
+  font-weight: 400;
+}
+
 #main1 .heading{
   font-size: 27px;
   font-weight: 500;
   color: #1608d3;
   position: relative;
   margin-bottom: 80px;
-  margin-top: 10vw;
+  margin-top: 5vw;
 }
 
 .heading::after{
@@ -1919,6 +1941,22 @@ strong{
     padding-top: 20%;
     margin-left: 20px;
   }
+
+
+  #Neet {
+    margin-top: 29vw;
+    padding: 2vw;
+  }
+
+  #Neet h3 {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+
+#about-head p{
+  text-align: justify;
+}
 
   .Container{
     width: 80%;
